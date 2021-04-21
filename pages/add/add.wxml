@@ -1,0 +1,30 @@
+
+<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">记一笔</view>
+</cu-custom>
+<view class="flex">
+  <view class="flex-sub bg-grey padding-sm margin-xs radius">
+    <view class="word">支出</view>
+  </view>
+  <view class="flex-sub bg-grey padding-sm margin-xs radius">
+    <view class="word">收入</view>
+  </view>
+</view>
+
+<view>
+  <view class="bg-grey padding-sm margin-xs radius box">{{kind}}</view>
+<view class="page-section">
+
+    <view class="weui-cells ">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" auto-focus placeholder="输入金额"/>
+      </view>
+    </view>
+
+  </view>
+</view>
+<view class="flex solid-bottom padding justify-start">
+      <view class="bg-grey padding-sm margin-xs radius">start</view>
+      <view class="bg-grey padding-sm margin-xs radius">start</view>
+    </view>
